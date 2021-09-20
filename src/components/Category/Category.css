@@ -1,0 +1,164 @@
+.card h2 {
+  margin: 20px 0 20px 35px;
+  font-family: MuseoSans, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4f5864;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.card h2:hover {
+  color: #1eb3ec;
+}
+.fa-angle-right {
+  font-size: 20px;
+  padding: 2px;
+}
+/* .fa-angle-right:before {
+  content: "\f105";
+} */
+.cardButton {
+  background-color: white !important;
+  color: #01b2ee;
+  border: 2px solid #01b2ee;
+  font-size: 13px;
+  margin: 5px;
+  /* margin-left: 30px; */
+}
+.cardButton:hover {
+  background-color: white !important;
+  color: #01b2ee;
+  border: 2px solid #01b2ee;
+}
+.CategoriesButton {
+  margin: 20px 0 20px 20px;
+  background-color: #01b2ee !important ;
+  color: white;
+}
+
+.allCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+.card-body {
+  padding: 0.5rem 0.5rem;
+}
+.allCard {
+  position: relative;
+  border-radius: 3px;
+  background: white;
+  border: 1px solid #ced5df;
+  overflow: hidden;
+  width: 20rem;
+  height: 24rem !important;
+}
+
+.allCard h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #4f5864;
+}
+.card-img-top {
+  display: block;
+}
+.cards:hover .overlay {
+  opacity: .8;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #01b2ee;
+}
+.allCard h4 {
+  font-size: 15px;
+  font-weight: 300;
+  color: #1eb3ec;
+}
+.allCard h6 {
+  font-size: 12px;
+  font-style: inherit;
+  color: #92a2ad;
+}
+.cards {
+  width: 20rem;
+  width: 21rem;
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.card {
+  border: none;
+}
+.Category {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}
+.cardText {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+.cardText h6 {
+  /* margin-top: 20px; */
+  color: #92a2ad;
+  margin-bottom: 0;
+  margin-right: 75px;
+}
+.price{
+ margin-left: 100px;
+ margin-bottom: 0;
+}
+.cardText h4 {
+  margin-bottom: 0;
+  color: #1eb3ec;
+  font-size: 25px;
+ 
+}
+
+.cardText span {
+  color: #1eb3ec;
+  font-size: small;
+}
+
+@media screen and (max-width: 730px) {
+  .all-Categories {
+    width: 70%;
+    display: grid;
+    grid-column: auto;
+  }
+  .allCards {
+    display: grid;
+    grid-column: auto;
+    /* width: 90%; */
+  }
+  .card-img-top {
+    min-width: 26rem;
+  }
+  .allCard {
+    width: 35rem;
+  }
+}

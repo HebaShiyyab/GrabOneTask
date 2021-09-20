@@ -1,0 +1,27 @@
+
+.Header {
+  border: 3px #01b2ee solid;
+  background-color: #01b2ee !important;
+  height: 65px;
+}
+
+.Header .NavDropdown {
+  display: flex;
+  align-items: center;
+  margin-left: 36rem;
+ 
+
+}
+.navbar{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+ .navLink{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1030px) {
+  .navLink {
+   display:none;
+  }}

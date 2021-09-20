@@ -1,0 +1,50 @@
+.font-small a {
+  text-decoration: none;
+  text-align: left;
+  color: #4f5864;
+}
+.Footer hr {
+  border: 0.5px solid #4f5864;
+  opacity: 0.2;
+}
+.Footer {
+  background-color: white !important ;
+margin-left: 1.5rem;
+}
+
+.Footer ul{
+  text-align: left;
+}
+.Footer h5{
+  text-align: left;
+  margin-left: 1rem;
+}
+.btn-primary {
+  background-color: #01b2ee !important;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 16px 16px 16px 40px;
+  position: relative;
+  box-shadow: 0 0 8px 0 rgb(1 178 238 / 50%);
+}
+
+.btn-primary :hover {
+  background-color: #24c7fe;
+}
+.footer-copyright {
+  background-color: white !important ;
+  height: 50px;
+  justify-content: center;
+}
+.col-md-3{
+  text-align: left;
+ 
+}
+.footerButton {
+  background-color: #01b2ee !important ;
+  color: white;
+}

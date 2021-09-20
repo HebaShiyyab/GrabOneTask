@@ -1,0 +1,24 @@
+.Aside{
+
+}
+.Aside .poster{
+    background-image:url('./photo.png');
+    background-position: center;
+    background-size: 100% 100%;
+    height: 240px;
+    margin: 0 20px 10px 10px ;
+    z-index: 7;
+}
+
+.Aside .paragraph{
+    text-align: center;
+    font-size:14px;
+    height: 10px;
+    color:#4f5864;
+    font-family: MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* margin: 10px 20px 0px 20px ; */
+}
+
+.Aside .text b{
+    color:#4f5864;
+}
