@@ -1,9 +1,6 @@
 import React from "react";
 import "./email.css";
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
-import { Icon } from "react-sidebar-ui";
+import {InputGroup,FormControl,Button} from "react-bootstrap";
 import { MDBCol, MDBRow } from "mdbreact";
 
 function Featured() {
@@ -11,9 +8,7 @@ function Featured() {
     <div className="Email">
       <MDBRow className="MDBrow">
         <MDBCol md="6">
-          <p
-        
-          >
+          <p>
             Get the best deals delivered direct to your inbox each day
           </p>
         </MDBCol>

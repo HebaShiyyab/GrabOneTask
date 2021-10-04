@@ -1,0 +1,15 @@
+.class-section{
+    width: 100%;
+    margin: 4rem 0rem 1rem 1rem;}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0 1rem 1rem;
+
+}
+
+.buttons h3{
+    margin:0rem 5rem 2rem 0rem;
+}
+

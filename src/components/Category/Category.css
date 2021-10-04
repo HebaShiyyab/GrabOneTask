@@ -1,4 +1,12 @@
-.card h2 {
+.class-category{
+  width: 100%;
+
+
+}
+
+
+
+/* .card h2 {
   margin: 20px 0 20px 35px;
   font-family: MuseoSans, sans-serif;
   font-size: 24px;
@@ -17,15 +25,15 @@
 /* .fa-angle-right:before {
   content: "\f105";
 } */
-.cardButton {
+/* .cardButton {
   background-color: white !important;
   color: #01b2ee;
   border: 2px solid #01b2ee;
   font-size: 13px;
   margin: 5px;
-  /* margin-left: 30px; */
-}
-.cardButton:hover {
+
+} */
+/* .cardButton:hover {
   background-color: white !important;
   color: #01b2ee;
   border: 2px solid #01b2ee;
@@ -123,7 +131,7 @@
   margin-bottom: 0;
 }
 .cardText h6 {
-  /* margin-top: 20px; */
+
   color: #92a2ad;
   margin-bottom: 0;
   margin-right: 75px;
@@ -142,7 +150,7 @@
 .cardText span {
   color: #1eb3ec;
   font-size: small;
-}
+}  */
 
 @media screen and (max-width: 730px) {
   .all-Categories {

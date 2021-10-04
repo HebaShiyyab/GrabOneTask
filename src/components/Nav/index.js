@@ -1,9 +1,9 @@
 import React from "react";
 import "./nav.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { MDBCol, MDBInput } from "mdbreact";
-// import { iconsSearch } from "./icons.png";
+import { Nav, Navbar, NavDropdown ,InputGroup,FormControl} from "react-bootstrap";
+import { MDBCol } from "mdbreact";
+import{FiSearch} from "react-icons/fi"
 
 const NavaBar = () => {
   return (
@@ -44,12 +44,17 @@ const NavaBar = () => {
               <Nav.Link href="#contact-us">For You</Nav.Link></MDBCol>
               <MDBCol md="4">
               <Nav.Link href="#contact-us">Shop Products</Nav.Link></MDBCol>
-              <MDBCol md="8">
-                <MDBInput
-                  hint="Search GrabOne"
-                  type="text"
-                  containerClass="active-pink active-pink-2 mt-0 mb-3"
-                />
+              <MDBCol md="6">
+              
+              <InputGroup className="Search-bar">
+            <InputGroup.Text id="basic-addon1">
+              <FiSearch className="search-icon"></FiSearch>
+            </InputGroup.Text>
+            <FormControl
+              placeholder="Search GrabOne"
+              aria-describedby="basic-addon1"
+            />
+          </InputGroup>
               </MDBCol>
             </Nav>
           </Navbar.Collapse>

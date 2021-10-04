@@ -5,7 +5,6 @@ export default function Aside() {
   return (
     <div className='Aside' >
       <div className="poster">
-        <p>Home</p>
       </div>
       <div className='paragraph'>
         <p>
